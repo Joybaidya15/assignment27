@@ -1,0 +1,210 @@
+*{
+    margin: 0; 
+    padding: 0;   
+    }
+    .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .main{
+        width: 100%;
+    }
+    
+    .header-manu{
+        display: block;
+        background-color: #55efc4;
+        padding: 15px 0px;
+        
+    }
+    .header{
+        width: 30%;
+        float: left;
+    }
+    .header h1{
+        font-size: 30px; 
+        color: white; 
+        margin-left: 15px;
+    }
+    .manu{
+        width: 70%;
+        float: right;
+    }
+    .manu ul{
+        text-align: end;
+        margin-right: 15px;
+    
+    }
+    
+    .manu ul li{
+        display: inline-block;
+        
+       
+    }
+    .manu ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+        margin-right: 15px;
+        display: block;
+        padding: 5px 7px;
+        
+    }
+    .manu ul li a:hover{
+        background-color: #00b894;
+        color: white;
+    }
+    .bannar{
+        background-image: url("https://i.postimg.cc/Kvn73QWD/header-bg01.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        height: 500px;
+        text-align: center;
+    }
+    .text h1{
+        font-weight: bold;
+        color: white;
+        padding-top: 100px;
+        
+    }
+    .pera{
+        color: white;
+    }
+    .learn{
+        padding: 10px 20px;
+        border: 2px solid white;
+        display: inline-block;
+        margin-top: 10px;
+        
+    
+    }
+    .learn a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+    .service{
+        text-align: center;
+        height: 200px;
+        padding-top: 60px;
+        
+    }
+    .iteam p {
+        font-size: 18px;
+    }
+    .iteam h4 {
+        font-size: 23px;
+    }
+    .iteam span{}
+    .iteam {
+        float: left;
+        width: 22%;
+        border: 1px solid black;
+        text-align: center;
+        box-sizing: border-box;
+        margin-left: 33px;
+        box-shadow: 12px 4px 13px -10px;
+        margin-top: 50px;
+        height: 234px;
+        padding: 0px 5px;
+    }
+    
+    .iteam span{
+        color: green;
+        font-size: 20px;
+        padding: 10px;
+        display: inline-block;
+    }
+    .about {
+       
+        text-align: center;
+        display: block;
+        margin-top: 300px;
+        margin-bottom: 100px;
+        border-top: 1px solid green;
+    }
+    .about h3 {
+        padding-top: 31px;
+    }
+    .img{
+        max-width: 100%;
+       
+    }
+    .about-left{
+        float: left;
+        width: 28%;
+        
+    }
+    .about-left img{
+        width: 629pxpx;
+    }
+    .about-right{
+        float: right;
+        width: 50%;
+        text-align: start;
+        
+    
+    }
+    .about-right p{
+
+    }
+    .about-right h5{
+        
+    }
+    .contact{
+        display: block;
+        width: 100%;
+        text-align: center;
+        background-color: #ecf0f1 ;
+        padding-top: 50px;
+    }
+    .iteam-one{
+        float: left;
+        width: 33%;
+       
+    }
+    .iteam-two{
+        float: left;
+        width: 33%;
+    }
+    .iteam-three{
+        float: left;
+        width: 33%;
+    }
+    span{
+        color: green;
+        font-size: 20px;
+    }
+    .footer{
+        background-color: #55efc4;
+        text-align: center;
+        padding: 12px;
+    }
+    .footer ul{}
+    .footer ul li{
+        list-style: none;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .footer ul li a{
+        background-color: white;
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 3px;
+        border-radius: 50%;
+        padding: 10px;
+        transition: .5s;
+        m
+    }
+    .footer ul li a:hover{
+        background-color: aqua;
+    }
+    
+    
+    
+    
